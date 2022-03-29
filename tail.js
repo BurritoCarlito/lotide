@@ -1,6 +1,8 @@
-const head = function(actual) {
-  return actual[0];
-};
+const tail = function(actual) {
+  return actual[1]++
+}
+
+console.log(tail);
 
 const assertEqual = function(actual, expected) {
   if (actual === expected) {
@@ -9,7 +11,4 @@ const assertEqual = function(actual, expected) {
     console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
 };
 
-
-
-assertEqual(head([5,6,7]), 5);
-assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
+assertEqual(tail([5,6,7]), 5);
