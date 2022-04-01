@@ -17,9 +17,9 @@ const assertArraysEqual = function(firstArray, secondArray) {
 
 const without = function(originalArray, itemsToRemove) {
   let newArray = [];
-  for (original of originalArray) {
+  for (const original of originalArray) {
     let removeItem = false;
-    for (item of itemsToRemove) {
+    for (const item of itemsToRemove) {
       if (item === original) {
         removeItem = true;
       }
