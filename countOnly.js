@@ -21,7 +21,6 @@ const assertEqual = function(actual, expected) {
 
 const countOnly = function(allItems, itemsToCount) {
   const results = {};
-
   for (const item of allItems) {
     // this for loop allows us to scan the entire list
     // allowing us to loop over all the items in the array and print them out onto the console

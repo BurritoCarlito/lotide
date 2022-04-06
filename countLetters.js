@@ -19,4 +19,5 @@ const countLetters = function(sentence) {
 // this function should take in a sentences (as a string) and then return a count of each of the letters in that sentence.
 };
 
-console.log(countLetters("lighthouse labs"));
+console.log(countLetters("Carlo Tanjuaquio"));
+console.log(countLetters("lighthouse in the house"));
