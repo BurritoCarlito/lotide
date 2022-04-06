@@ -16,22 +16,22 @@ const assertArraysEqual = function(firstArray, secondArray) {
 };
 
 const letterPositions = function(sentence) {
-const results = {};
-for (let i = 0; i < sentence.length; i++) {
-  let letter = sentence[i];
-  if (letter !== " ") {
-    if (results[letter]){
-      results[letter].push(i);
-    } else {
-      results[letter] = [i];
+  const results = {};
+  for (let i = 0; i < sentence.length; i++) {
+    let letter = sentence[i];
+    if (letter !== " ") {
+      if (results[letter]) {
+        results[letter].push(i);
+      } else {
+        results[letter] = [i];
+      }
     }
   }
-}
-return results;
+  return results;
 };
 assertArraysEqual(letterPositions("hello").e, [1]);
 
-assertArraysEqual(letterPositions("hello").h, [0] );
+assertArraysEqual(letterPositions("hello").h, [0]);
 
 console.log(letterPositions("hello"));
 console.log(letterPositions("Carlo Tanjuaquio"));
