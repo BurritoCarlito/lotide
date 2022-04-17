@@ -1,7 +1,7 @@
 {
   "name": "@irt.21/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "lotide library of functions, created for LHL learning",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/BurritoCarlito/lotide.git"
   },
-  "author": "",
+  "author": "Carlo Tanjuaquio",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/BurritoCarlito/lotide/issues"
